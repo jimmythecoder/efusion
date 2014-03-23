@@ -1,0 +1,6 @@
+[production]
+schema_version = 1
+[development]
+schema_version = 1
+[test]
+schema_version = 1

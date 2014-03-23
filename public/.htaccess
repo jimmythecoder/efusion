@@ -1,0 +1,13 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+#Fix firefox UTF-8 Bug when parsing .css and .js files through php
+AddType application/x-javascript .js
+AddType text/css .css
+
+#Block access to subversion files
+RewriteRule .*\.svn.* 						/this-file-does-not-exist [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*) index.php?request=$1 [QSA]

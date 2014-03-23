@@ -1,0 +1,12 @@
+<GenerateRequest>
+	<PxPayUserId>{$payment_gateway.username|escape:'html'}</PxPayUserId>
+	<PxPayKey>{$payment_gateway.password|escape:'html'}</PxPayKey>
+	<AmountInput>{$payment_gateway.transaction_amount|number_format:2:'.':''}</AmountInput>
+	<CurrencyInput>{$payment_gateway.currency|escape:'html'}</CurrencyInput>
+	<MerchantReference>{$payment_gateway.reference_code|escape:'html'}</MerchantReference>
+	<TxnType>{$payment_gateway.transaction_type|escape:'html'}</TxnType>
+	<TxnId>{$payment_gateway.reference_code}</TxnId>
+	<EnableAddBillCard>0</EnableAddBillCard>
+	<UrlSuccess>{$payment_gateway.secure_merchant_url}/order-placed</UrlSuccess>
+	<UrlFail>{$payment_gateway.secure_merchant_url}/order-failed</UrlFail>
+</GenerateRequest>

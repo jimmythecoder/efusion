@@ -1,0 +1,196 @@
+/**
+ * Set 2 column layout
+ */
+#content{
+	margin: 10px 25px 10px 175px;
+}
+
+.region{
+	font-weight: bold;	
+}
+
+#order-list{
+	width: 100%;
+}
+
+#order-list td{
+	border-top: 1px solid #333333;
+	line-height: 150%;
+}
+
+#order-list tr.alt{
+	background-color: #EEEEEE;
+}
+
+#account-sections{
+	margin: 10px;
+	padding: 0;
+	list-style-type: none;
+}
+	
+#account-sections li{
+	color: #000000;
+	margin: 10px 0px;
+	padding: 5px 5px 5px 40px;
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+}
+
+#account-sections p{ 
+	margin: 0;
+	padding: 0;
+}
+
+#account-sections a, #account-sections a:visited{ 
+	font-weight: bold;
+}
+
+#orders{
+	background-image: url('../images/icons/orders.gif');
+}
+
+#personal-details{
+	background-image: url('../images/icons/personal_details.gif');
+}
+
+#address-book{
+	background-image: url('../images/icons/address_book.gif');
+}
+
+#account-activation.not-activated{
+	background-image: url('../images/icons/warning.png');
+	background-position: 0px 5px;
+	color: #7E0000;
+}
+
+#account-activation a, #account-activation a:visited{
+	font-weight: normal;
+	text-decoration: none;
+	border-bottom: 1px dotted #00F;
+}
+
+#account-activation.activated{
+	background-image: url('../images/icons/tick.gif');
+	background-position: 5px 7px;
+	color: #798263;
+}
+
+#change-password{
+	background-image: url('../images/icons/password.gif');
+}
+
+
+
+/**
+ * Order summary
+ */
+#order-summary{
+	border-top: 2px solid #A0B333; 	
+	width: 100%;
+	margin: 0 0 50px 0;
+	padding: 0px;
+}
+ 
+#order-summary caption{
+ 	text-align: left;
+ 	font-weight: bold;
+ 	margin-top: 10px;
+}
+
+.orders .product-thumbnail{
+	width: 50px;
+	padding: 5px;
+}
+
+.product-name{
+	
+}
+
+.currency-sign{
+	text-align: right;	
+	width: 15px;
+}
+
+.price{
+	text-align: right;
+	width: 90px;
+}
+
+tr.alt-row{
+	background-color: #E1EAAC;
+}
+
+.alt-row td{
+	border-top: 1px solid #A0B333;
+	border-bottom: 1px solid #A0B333;
+}
+
+#product-subtotals-divider td{
+	border-bottom: 2px solid #A0B333;
+}
+
+.label{
+	text-align: right;
+}
+
+#grand-total{
+	font-weight: bold;
+	border-top: 1px solid #000000;
+	border-bottom: 3px double #000000;
+}
+
+th{
+	vertical-align: top;	
+}
+	
+#delivery-address, #billing-address{
+	border-left: 2px solid #A0B333;	
+	padding-top: 20px;
+	padding-left: 10px;
+	margin-top: 10px;
+	width: 48%;
+	float: left;
+	background-image: url('../images/layout/delivery_address.gif');
+	background-position: 8px 0;
+	background-repeat: no-repeat;
+}
+
+#billing-address{
+	float: right;
+	background-image: url('../images/layout/billing_address.gif');
+}
+
+#order-comments{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #CCCCCC;
+	background-color: #EFEFEF;
+}
+
+#order-comments p{
+	padding: 0;
+	margin: 0 0 0 5px;	
+}
+
+.dotted-ruler{
+	width: 100%;
+	clear: both;
+	height: 1%;
+	margin: 0;
+	padding: 0;
+	border-top: 1px dotted #777777;
+}
+
+#customer-addresses{
+	margin: 10px;
+}
+
+address.primary{
+	font-weight: bold;
+}
+
+address{
+	margin: 10px 0 0 0;
+	padding-left: 10px;
+	border-left: 8px solid #EEEEEE;
+}

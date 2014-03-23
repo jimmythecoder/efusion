@@ -1,0 +1,89 @@
+
+/**
+ * Cart contents page
+ */
+
+
+/**
+ * Set 2 column layout
+ */
+#content{
+	margin: 10px 25px 10px 175px;
+}
+
+#cart{
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 11px;
+}
+
+#cart th{
+	text-align: center;
+	
+}
+
+#cart td, #cart th{
+	margin: 0px;
+	padding: 1px 5px 1px 5px;
+	border: 1px solid #AAAAAA;
+}
+
+#cart .remove{
+	text-align: center;
+}
+
+#cart .product{
+	padding: 0px 10px 0px 5px;
+}
+
+#cart .instock{
+	text-align: center;
+}
+
+#cart .price{
+	text-align: right;
+}
+
+#cart .quantity{
+	text-align: center;
+}
+
+#cart .subtotal{
+	text-align: right;
+}
+
+#cart .total{
+	text-align: right;
+	font-weight: bold;
+}
+
+#cart .update{
+	text-align: center;
+}
+
+#cart a{
+	text-decoration: none;
+	color: #0000FF;
+}
+
+#button_update_cart{
+	font-size: 11px;
+}
+
+#cart-footer{
+	text-align: right;	
+}
+
+tr.alt{
+	background-color: #F5F5F5;
+}
+
+#checkout-link{
+	margin: 0px;
+	padding: 10px 0 0 0;
+	width: 100%;
+	clear: both;
+	text-align: right;
+}

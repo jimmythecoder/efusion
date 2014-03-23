@@ -1,0 +1,409 @@
+
+@import url('jscalendar.css');
+
+/**
+ * Set 2 column layout
+ */
+#content{
+	margin: 10px 25px 10px 175px;
+}
+
+em{
+	font-weight: bold;
+}
+
+img.thumbnail{
+	border: 1px solid #000000;
+	margin: 3px 0 2px 0;
+}
+
+hr.section-break{
+	border: 0;
+	color: #fff;
+	background-color: #fff;
+	height: 1px;
+	border-top: 1px dotted #AAAAAA;
+	
+}
+
+.admin #administrative-sections{
+	margin: 10px;
+	padding: 0;
+	list-style-type: none;
+}
+	
+.admin #administrative-sections li{
+	color: #000000;
+	margin: 10px 0px;
+	padding: 5px 5px 5px 40px;
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	list-style-type: none;
+}
+
+.admin #administrative-sections p{ 
+	margin: 0;
+	padding: 0;
+}
+
+.admin #administrative-sections a, .admin #administrative-sections a:visited{ 
+	font-weight: bold;
+}
+
+.admin #orders{
+	background: url('../images/icons/orders.gif') no-repeat;
+}
+
+.admin #categories{
+	background-image: url('../images/icons/categories.png');
+}
+
+.admin #statistics{
+	background-image: url('../images/icons/statistics.png');
+}
+
+.admin #products{
+	background-image: url('../images/icons/product.png');
+}
+
+.admin #emails{
+	background-image: url('../images/icons/email.png');
+}
+
+.admin #configuration{
+	background-image: url('../images/icons/configuration.png');
+}
+
+table.paginated{
+	margin: 10px 0px 0px 0px;
+	padding: 0px;
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 11px;
+}
+
+.paginated .alt-row{
+	background-color: #EFEFEF;
+}
+
+table.paginated td{
+	margin: 0px;
+	padding: 1px 5px 1px 5px;
+	border-bottom: 1px solid #777;
+	border-top: 1px solid #777;
+	line-height: 140%;
+}
+
+table.paginated th a:hover{
+	padding-right: 15px;
+	background: #FFFFFF url('../images/icons/sort_arrow.png') no-repeat bottom right;
+}
+
+table.paginated th a{
+	padding-right: 15px;
+}
+
+table.paginated a, table.paginated a:visited{
+	text-decoration: none;
+}
+
+table.paginated td img{
+	margin: 2px;
+	border: 1px solid #666;
+}
+
+.disabled{
+	text-decoration: line-through;
+}
+
+table.paginated tfoot td{
+	border: none;
+	
+}
+
+td.pagination{
+	text-align: right;
+font-weight: bold;
+}	
+
+tr.hidden{
+	display: none;
+}
+
+.required .text, .required select, .required textarea{
+	background-color: #eeef95;
+}
+
+.required .error{
+	background-color: #DEC1A1;
+}
+
+.categories #category-list{
+	
+	list-style-type: none;
+	margin: 5px 0;
+	padding: 0;
+	font-size: 11px;
+	width: 100%;
+}
+
+.categories #category-list a, .categories #category-list a:visited{
+	text-decoration: none;
+}
+
+.categories #category-list li{
+	padding: 1px 5px 1px 5px;
+	border-bottom: 1px solid #555555;
+	line-height: 140%;	
+	clear: both;
+}
+
+.categories .sortable .col1{
+	cursor: move;
+}
+
+.categories .sort-helper
+{
+	background-color: #DDE8C3;
+}
+
+.categories li.alt-row{
+	background-color: #EFEFEF;
+}
+
+.categories #category-list .col1{
+	float: left;
+	display: block;
+	width: 50%;
+}
+
+.categories #category-list .col2{
+	
+}
+
+.categories a{
+	text-decoration: none;
+}
+
+.categories .right{
+	float: right;
+}
+
+.categories .left{
+	float: left;
+}
+
+.categories .small{
+	font-size: 11px;
+}
+
+.orders a:hover{
+	text-decoration: underline;
+}
+
+.orders .cancelled{
+	color: #AAAAAA;
+}
+
+.orders .shipped{
+	color: #14863a;
+}
+
+.orders .processed{
+	color: #998a08;
+}
+
+.orders .pending{
+	color: #000000;
+}
+
+
+/**
+ * Order summary
+ */
+.orders #order-summary{
+	border-top: 2px solid #A0B333; 	
+	width: 100%;
+	margin: 0 0 50px 0;
+	padding: 0px;
+}
+ 
+.orders #order-summary caption{
+ 	text-align: left;
+ 	font-weight: bold;
+ 	margin-top: 10px;
+}
+
+.orders .product-thumbnail{
+	width: 50px;
+	padding: 5px;
+}
+
+.orders .product-name{
+	
+}
+
+.orders .product-name a{
+	color: #00A;	
+	text-decoration: none;
+}
+
+.orders .product-name a:hover{
+	text-decoration: underline;
+}
+
+.orders .currency-sign{
+	text-align: right;	
+	width: 15px;
+}
+
+.orders .price{
+	text-align: right;
+	width: 90px;
+}
+
+.orders #order-summary .alt-row{
+	background-color: #E1EAAC;
+}
+
+.orders  #order-summary .alt-row td{
+	border-top: 1px solid #A0B333;
+	border-bottom: 1px solid #A0B333;
+}
+
+.orders #product-subtotals-divider td{
+	border-bottom: 2px solid #A0B333;
+}
+
+.orders .label{
+	text-align: right;
+}
+
+.orders #grand-total{
+	font-weight: bold;
+	border-top: 1px solid #000000;
+	border-bottom: 3px double #000000;
+}
+
+.orders th{
+	vertical-align: top;	
+}
+	
+.orders #delivery-address, #billing-address{
+	border-left: 2px solid #A0B333;	
+	padding-top: 20px;
+	padding-left: 10px;
+	margin-top: 10px;
+	width: 48%;
+	float: left;
+	background-image: url('../images/layout/delivery_address.gif');
+	background-position: 8px 0;
+	background-repeat: no-repeat;
+}
+
+.orders #billing-address{
+	float: right;
+	background-image: url('../images/layout/billing_address.gif');
+}
+
+.orders #order-comments{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #CCCCCC;
+	background-color: #EFEFEF;
+}
+
+.orders #order-comments p{
+	padding: 0;
+	margin: 0 0 0 5px;	
+}
+
+.orders #order_comments{
+	width: 300px;
+	height: 100px;
+}
+
+.emails #system-emails{
+	list-style-type: decimal;
+
+}
+
+.emails #system-emails li{
+	margin-bottom: 10px;
+}
+
+.emails textarea{
+	width: 350px;
+	height: 150px;
+}
+
+.config .disabled{
+	color: #AAAAAA;
+	text-decoration: none;
+}
+
+.config .field-definition{
+	display: block;
+	font-size: 10px;
+	font-style: italic;
+	background-color: #f4f5bd;
+	border: 1px solid #e4e56a;
+	line-height: 150%;
+	padding: 3px;
+	margin: 3px 0px;
+	width: 200px;
+	float: right;
+}
+
+.banners .active td{
+	font-weight: bold;
+}
+
+.checklist{
+	border: 1px solid #AAA;
+	list-style: none;
+	overflow: auto;
+	font-size: 11px; 
+	width: 90%; 
+	height: 120px;
+	background-color: #FFFFFF;
+}
+
+.checklist .alt { background: #eee; }
+
+.checklist input { vertical-align: middle; }
+
+.checklist, .checklist li { 
+	margin-left: 0; 
+	padding: 0; 
+}
+
+.checklist label{ 
+	display: block; 
+	height: 1%; 
+	padding-left: 25px; 
+	text-indent: -25px; 
+}
+
+.checklist label:hover, .checklist label.hover{ 
+	background: #ddd; 
+	color: #000; 
+}
+
+.statistics ol{
+	list-style-type: none;
+	padding: 0;
+	margin: 10px;
+	border-bottom: 1px solid #CCC;
+}
+
+.statistics #map{
+	margin: 0px;
+	width: 600px;
+	height: 500px;
+	background-color: #DDD;
+}
+
+.statistics #map.loading{
+	background: #DDD url('../images/layout/loading.gif') no-repeat 50% 50%;
+}

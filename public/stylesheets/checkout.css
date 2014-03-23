@@ -1,0 +1,117 @@
+/**
+ * Checkout page
+ */
+ 
+ @import url("cart.css");
+ 
+/**
+ * Set 2 column layout
+ */
+#content{
+	margin: 10px 25px 10px 175px;
+}
+
+.retrieve-password{
+	padding-top: 10px;
+	text-align: right;
+}
+
+#speedbar_checkout, #speedbar_checkout:visited{
+	color: #FFFFFF;
+	border-bottom: 2px solid #670703;
+}
+
+#confirm_order_button{
+	margin: 0px;
+	padding: 10px 0px 0px 0px;
+	text-align: right;
+}
+ 
+/**
+ * Shipping information
+ */
+#delivery-addresses, #billing-addresses{
+	list-style-type: none;
+	line-height: 100%;
+	margin: 10px 0px 10px 0px;
+	padding: 0px;
+	width: 100%;
+	height: 110px;
+}
+
+#delivery-addresses li, #billing-addresses li{
+	font-size: 11px;
+	font-weight: normal;
+	float: left;
+	margin-right: 10px;
+	background-color: #eeeeee;
+	padding: 10px;
+}
+
+#delivery-addresses li.selected, #billing-addresses li.selected{
+	border: 1px solid #000000;
+}
+
+.is-primary{
+	font-weight: bold;	
+	font-style: italic;
+}
+
+#change-address{
+	margin: 0 0 10px 0px;
+}
+
+#shipping-info caption{
+	margin: 0px;
+	padding: 2px;
+	background-color: #dddddd;
+}
+
+#shipping-info td, #shipping-info th, #shipping-info caption{
+	font-size: 11px;
+	line-height: 160%;
+	border-bottom: 1px solid #DDD;
+	text-align: left;
+}
+ 
+.checkout #shipping-info .last th, .checkout #shipping-info .last td{
+	border: none;
+}
+ 
+#shipping-info{
+	width: 100%;
+	border: 1px solid #AAAAAA;	
+	padding: 1px;
+}
+ 
+.checkout #delivery_total{
+	font-weight: bold;
+	width: 50%;
+}
+
+/**
+ * Payment information
+ */
+#credit-card-payment{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 20px;	
+	background: #FFF url('/images/layout/paymentexpress.gif') no-repeat bottom right;
+}
+ 
+#bank-deposit-payment{
+	margin: 0;
+	padding: 0;	
+}
+ 
+#order_comments{
+	width: 570px;
+	height: 50px;
+}
+
+.payment-gateway-logo{
+	width: 200px;
+	background-image: url('../images/layout/dps_logo.gif');
+	background-repeat: no-repeat;
+	background-position: 100% 0%;
+}

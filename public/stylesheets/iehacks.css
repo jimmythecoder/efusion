@@ -1,0 +1,26 @@
+/**
+ * Global style sheet to maintain IE hacks below browser version 7.0
+ */
+
+
+* html>body .clearfix {
+	display: inline-block; 
+	width: 100%;
+	}
+
+* html .clearfix {
+	/* Hides from IE-mac \*/
+	height: 1%;
+	/* End hide from IE-mac */
+	}	
+
+/**
+ * Product image popups
+ */
+#overlay{
+	filter:alpha(opacity=60);
+}
+
+#flash-notices, #flash-errors{
+	display: inline-block;
+}
